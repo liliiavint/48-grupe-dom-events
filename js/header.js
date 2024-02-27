@@ -1,6 +1,6 @@
 function header() {
     const navDOM = document.querySelector('.main-nav');
-    const href = location.hostname === "127.0.0.1" ? '/' : './';
+    const href = location.hostname === "/48-grupe-dom-events/" ? '/' : './';
     
     const HTML = `
       
