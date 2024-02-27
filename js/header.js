@@ -1,13 +1,13 @@
 function header() {
     const navDOM = document.querySelector('.main-nav');
     const href = location.hostname === 'localhost' ? '/' : './';
-
+    const url = 'http://127.0.0.1:5501/'
     const HTML = `
-        <a href="${href}48-grupe-dom-events">Home</a>
-        <a href="${href}48-grupe-dom-events/single-button-click/">Single button click</a>
-        <a href="${href}48-grupe-dom-events/counter/">Counter</a>
-        <a href="${href}48-grupe-dom-events/basketball/">Basketball</a>
-        <a href="${href}48-grupe-dom-events/virykle/">Virykle</a>
+        <a href="${href}">Home</a>
+        <a href="${href}single-button-click/">Single button click</a>
+        <a href="${href}counter/">Counter</a>
+        <a href="${href}basketball/">Basketball</a>
+        <a href="${href}virykle/">Virykle</a>
     `;
     navDOM.innerHTML = HTML;
 }
