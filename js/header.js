@@ -3,11 +3,11 @@ function header() {
     const href = location.hostname === 'localhost' ? '/' : './';
 
     const HTML = `
-        <a href="${href}">Home</a>
-        <a target="_parent" href="${href}single-button-click/">Single button click</a>
-        <a href="${href}counter/">Counter</a>
-        <a href="${href}basketball/">Basketball</a>
-        <a href="${href}virykle/">Virykle</a>
+        <a href="${href}48-grupe-dom-events">Home</a>
+        <a href="${href}48-grupe-dom-events/single-button-click/">Single button click</a>
+        <a href="${href}48-grupe-dom-events/counter/">Counter</a>
+        <a href="${href}48-grupe-dom-events/basketball/">Basketball</a>
+        <a href="${href}48-grupe-dom-events/virykle/">Virykle</a>
     `;
     navDOM.innerHTML = HTML;
 }
