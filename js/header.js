@@ -1,6 +1,6 @@
 function header() {
     const navDOM = document.querySelector('.main-nav');
-    const href = location.hostname === "liliiavint.github.io" ? '/' : './';
+    const href = location.hostname === "lokalhostame" ? '/' : './';
     
     const HTML = `
       <base href="/48-grupe-dom-events/>
