@@ -2,7 +2,8 @@ function header() {
     const navDOM = document.querySelector('.main-nav');
     const localhost = 'http://localhost:4810';
     const github = 'https://liliiavint.github.io/48-grupe-dom-events';
-    const href = location.hostname === 'localhost' ? localhost : github;
+    const liveserver = 'http://127.0.0.1:5501'
+    const href = location.hostname === 'localhost' ? localhost : (location.hostname === 'liliiavint.github.io' ? github : liveserver);
 
     const HTML = `
         <a href="${href}/">Home</a>
