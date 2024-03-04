@@ -1,5 +1,6 @@
 function header() {
     const navDOM = document.querySelector('.main-nav');
+    
     const localhost = 'http://localhost:4810';
     const github = 'https://liliiavint.github.io/48-grupe-dom-events';
     const liveserver = 'http://127.0.0.1:5501';
@@ -16,6 +17,7 @@ function header() {
         <a href="${href}/better-clock/">Geresnis laikrodis</a>
         <a href="${href}/kmi/">KMI</a>
         <a href="${href}/todo/">Todo</a>
+        <a href="${href}/user-interface/">User interface</a>
     `;
     navDOM.innerHTML = HTML;
 }
