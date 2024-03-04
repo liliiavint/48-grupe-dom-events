@@ -13,6 +13,8 @@ function header() {
         <a href="${href}/cart/">Prekiu krepselis</a>
         <a href="${href}/clock/">Laikrodis</a>
         <a href="${href}/better-clock/">Geresnis laikrodis</a>
+        <a href="${href}/kmi/">KMI</a>
+        <a href="${href}/todo/">Todo</a>
     `;
     navDOM.innerHTML = HTML;
 }
